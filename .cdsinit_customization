@@ -1,0 +1,31 @@
+; ADEXL asks for history name for each sim run
+envSetVal("adexl.historyNamePrefix" "showNameHistoryForm" 'boolean t )
+
+; Set ViVa graphs for better readability
+envSetVal("viva.rectGraph" "background" 'string "white")
+
+envSetVal("viva.axis" "font" 'string "Default,16,-1,5,50,0,0,0,0,0")
+envSetVal("viva.pointMarker" "font" 'string "Default,13,-1,5,50,0,0,0,0,0")
+envSetVal("viva.vertMarker" "font" 'string "Default,13,-1,5,50,0,0,0,0,0")
+envSetVal("viva.graphLabel" "font" 'string "Default,13,-1,5,50,0,0,0,0,0")
+
+
+
+envSetVal("viva.trace" "traceStyle" 'string "line")
+envSetVal("viva.trace" "lineThickness" 'string "thick")
+envSetVal("viva.trace" "lineStyle" 'string "Solid")
+envSetVal("viva.trace" "symbolsOn" 'boolean nil)
+envSetVal("viva.trace" "lineWidth" 'int 3)
+
+envSetVal("viva.axis" "foreground" 'string "#808080")
+envSetVal("viva.axis" "majorGridForeground" 'string "#808080")
+envSetVal("viva.axis" "minorGridForeground" 'string "#808080")
+
+envSetVal("asimenv.plotting" "useDisplayDrf" 'boolean nil )
+
+; Set default marker intercepts to On
+envSetVal("viva.horizMarker" "interceptStyle" 'string "On")
+envSetVal("viva.VertMarker" "interceptStyle" 'string "On")
+
+; Open ViVa in Window mode by default
+envSetVal("viva.application" "vivaWindowMode" 'string "window")
