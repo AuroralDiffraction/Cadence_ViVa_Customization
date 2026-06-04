@@ -1,5 +1,21 @@
 # Personal customization scripts and guide for Cadence Virtuoso ViVa
 
+## How to use
+Copy `.cdsinit_customization` to project directory, then source it in `.cdsinit` using
+
+```
+load("./.cdsinit_customization")
+```
+
+To add new settings, refer to the list of public ViVa variables below, and add to  `.cdsinit_customization` using the `envSetVal` command.
+
+For example, to set line thickness to thick, use
+```
+envSetVal("viva.trace" "lineThickness" 'string "thick")
+```
+
+You can also directly add `viva.trace	lineThickness	string	"thick"` to `.cdsenv` for the same effect.
+
 
 ## List of public ViVa variables
 viva.application	useBold	string	"false"
