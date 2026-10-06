@@ -25,3 +25,6 @@ envSetVal("viva.vertMarker" "interceptStyle" 'string "On")
 
 ; Open ViVa in Window mode by default
 envSetVal("viva.application" "vivaWindowMode" 'string "window")
+
+;Table data export significant digit
+envSetVal("viva.table" "significantDigits" 'string "12")
